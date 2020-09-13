@@ -30,8 +30,7 @@ Released   : 20100928
     <h2 class="title"><a href="/pages/Post1.html">初投稿</a></h1>
     <div style="clear: both;">&nbsp;</div>
     <div class="entry">
-    <h2>初投稿</h2>
-<p>pelicanとgithubを使ってブログ公開してみた。<br>
+    <p>pelicanとgithubを使ってブログ公開してみた。<br>
 備忘のため、ブログ更新方法をメモします。</p>
 <p>~/newBlog/contentフォルダ配下を更新した後、~/blog/配下で以下コマンドを実行する  </p>
 <div class="highlight"><pre><span></span><code> <span class="err">$</span> <span class="n">make</span> <span class="n">publish</span>  
@@ -42,19 +41,20 @@ Released   : 20100928
 
 <p>push前に編集結果を確認する場合は、</p>
 <div class="highlight"><pre><span></span><code>$ make html
-$ make server
+$ make serve
 </code></pre></div>
 
 
 <p>を実行した後、「http://localhost:8000/」にブラウザにアクセスする。</p>
 <h3>参考URL</h3>
-<p>● Homebrew</p>
-<div class="highlight"><pre><span></span><code><span class="err"> https://qiita.com/omega999/items/6f65217b81ad3fffe7e6</span>
+<p>● pelican</p>
+<div class="highlight"><pre><span></span><code><span class="err"> http://daikishimada.github.io/pelican-start.html</span>
+<span class="err"> https://qiita.com/saira/items/71faa202efb4320cb41d</span>
 </code></pre></div>
 
 
-<p>● Pelican</p>
-<div class="highlight"><pre><span></span><code><span class="err"> https://qiita.com/saira/items/71faa202efb4320cb41d</span>
+<p>● Homebrew</p>
+<div class="highlight"><pre><span></span><code><span class="err"> https://qiita.com/omega999/items/6f65217b81ad3fffe7e6</span>
 </code></pre></div>
     </div>
     </div>
@@ -78,23 +78,6 @@ $ make server
 							<ul>
 							</ul>
 						</li>
-						<li>
-							<h2>Blogroll</h2>
-							<ul>
-                                                            <li><a href="https://getpelican.com/">Pelican</a></li>
-                                                            <li><a href="https://www.python.org/">Python.org</a></li>
-                                                            <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
-                                                            <li><a href="#">You can modify those links in your config file</a></li>
-							</ul>
-						</li>
-                                                <li>
-                                                        <h2>Social</h2>
-                                                        <ul>
-                                                            <li><a href="/" rel="alternate">Flux Atom</a></li>
-                                                            <li><a href="#">You can add links in your config file</a></li>
-                                                            <li><a href="#">Another social link</a></li>
-                                                        </ul>
-                                                </li><!-- /.social -->
 						<li>
 						        <h2>Tags</h2>
 						        <ul>
