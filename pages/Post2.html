@@ -15,7 +15,7 @@ Released   : 20100928
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>pytorchの勉強</title>
+<title>Google Colab上でHardNet環境構築</title>
 <link href="/theme/css/style.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="/" type="application/atom+xml" rel="alternate" title="B-Blog ATOM Feed" />
 </head>
@@ -27,10 +27,29 @@ Released   : 20100928
         
 <div id="content">
 <div class="post">    
-    <h2 class="title"><a href="/pages/Post2.html">pytorchの勉強</a></h1>
+    <h2 class="title"><a href="/pages/Post2.html">Google Colab上でHardNet環境構築</a></h1>
     <div style="clear: both;">&nbsp;</div>
     <div class="entry">
-    <h2>pytorch</h2>
+    <p>Google Colab上でHardNetの実行環境を構築してみる。<br>
+<a href="https://github.com/DagnyT/hardnet">Githubで公開されてるpytorchによるHardNet実装</a>
+を実行することを目標とする。</p>
+<h2>HardNetをGithubからインポート</h2>
+<p>Google Colab上にノートブック(HardNet.ipynb)を作成する<br>
+HardNet.ipynbで以下を実行する</p>
+<div class="highlight"><pre><span></span><code>!git clone https://github.com/DagnyT/hardnet.git 
+</code></pre></div>
+
+
+<p>Google Colab上のストレージ領域（多分）にhardnetフォルダが作成される</p>
+<h2>HardNetのサンプルコードを実行</h2>
+<p>HardNet.ipynb上で以下を実行する</p>
+<div class="highlight"><pre><span></span><code>!./hardnet/code/run_me.sh
+</code></pre></div>
+
+
+<p>データセットのダウンロードとディスクリプタの学習が開始される<br>
+/hardnet/data/フォルダが作成される<br>
+/hardnet/data/sets/配下の*.ptが学習結果  </p>
     </div>
     </div>
 </div>
@@ -44,7 +63,7 @@ Released   : 20100928
 							<li ><a href="">Home</a></li>
 							<li ><a href="/archives.html">Archives</a></li>
                                                             <li class="current_page_item"><a href="/pages/Post1.html">初投稿</a></li>
-                                                            <li class="current_page_item"><a href="/pages/Post2.html">pytorchの勉強</a></li>
+                                                            <li class="current_page_item"><a href="/pages/Post2.html">Google Colab上でHardNet環境構築</a></li>
 						</ul>
 					</div>
 					<ul>
